@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+h1 {
+}
+
+main {
+  padding: 10px;
+}
+
+.hero-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2265ca;
+  color: #fff;
+  margin-bottom: 30px;
+  height: 200px;
+}
+
+.hero-banner div {
+  display: inline-block;
+  width: 50%;
+}
+
+div.div-banner-img {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.div-banner-img img {
+  max-height: 100px;
+  position: absolute;
+  top: 20%;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+
+.wrapper {
+  display: flex;
+  overflow: hidden;
+  height: 100%;
+  align-items: center;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    left: 100%;
+  }
+  50% {
+    opacity: 1;
+    left: 50%;
+  }
+  100% {
+    opacity: 0;
+    left: 0%;
+  }
+}
