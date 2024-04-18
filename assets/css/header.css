@@ -1,5 +1,5 @@
-.navegacao,
-.navegacao ul {
+.header .navegacao,
+.header .navegacao ul {
   display: inline;
 }
 
@@ -17,9 +17,9 @@
   text-decoration: none;
 }
 
-.header a:visited {
+/* .header a:visited {
   color: #ffffff;
-}
+} */
 
 .header ul li {
   display: inline;
